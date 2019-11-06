@@ -28,3 +28,8 @@ def count(request):
 	return render(request,'count.html', 
 		{'total_count': total_count, 'input_text' : input_text, 
 		'word_dict' : word_dict, 'sorted_dict' : sorted_dict })
+
+
+def about(request):
+	
+	return render(request,'about.html')
